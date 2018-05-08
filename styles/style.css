@@ -1,0 +1,68 @@
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville);
+
+body {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1em;
+}
+
+hr {
+  color: #ffffff;
+  display: none;
+  margin: 1.5em 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-variant: small-caps;
+  font-weight: bold;
+}
+
+h1 {
+  margin-bottom: 1em;
+}
+
+.title {
+  text-align: center;
+}
+
+.author {
+  text-align: center;
+}
+
+.date {
+  text-align: center;
+}
+
+.rights {
+  text-align: center;
+}
+
+p {
+  line-height: 1.8em;
+}
+
+.level1 h1 + p::first-letter {
+  font-size: 3.4em;
+  float: left;
+  margin-right: 0.075em;
+  margin-top: 0.2em;
+  font-variant: small-caps;
+}
+
+blockquote {
+  font-size: 0.8em;
+}
+
+.footnotes {
+  font-size: 0.8em;
+}
+
+.footnote-ref {
+  font-size: 0.6em;
+  font-weight: bold;
+  position: relative;
+  top: -0.5em;
+}
+
+.footnote-back {
+  display: none;
+}
