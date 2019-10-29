@@ -1,5 +1,5 @@
 build:
-	rm dist/** && \
+	rm -rf dist/** && \
 	pandoc -o dist/book.epub \
 		meta/title.txt \
 		chapters/chapter-1.md \

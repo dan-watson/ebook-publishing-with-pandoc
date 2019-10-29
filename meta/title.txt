@@ -4,6 +4,8 @@ author: Dan Watson
 publisher:
 subject:
 description:
+rating: 5
+tags: one, two, three
 rights:  Creative Commons Non-Commercial Share Alike 3.0
 language: en-GB
 date: 01/01/2016
